@@ -11,19 +11,7 @@ export default ()=>{
     chartCount:2,
   })
   useEffect(()=>{
-    // $tUtils.$ti.s("disLoding",()=>{
-    //   setAPConfig((pre)=>({
-    //     ...pre,
-    //     loading:false
-    //   }))
-    // },1000)
-
-    // $tUtils.$ti.s("disLoding11",()=>{
-    //   setAPConfig((pre)=>({
-    //     ...pre,
-    //     loading:true
-    //   }))
-    // },6000)
+    
   },[])
 
   return (
