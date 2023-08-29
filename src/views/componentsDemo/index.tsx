@@ -1,5 +1,5 @@
 import { useState,useEffect } from 'react'
-import {AdaptivePanel,$tUtils} from "techui-react-lite"
+import {AdaptivePanel,timer} from "techui-react-lite"
 import Layout from "./layout"
 
 export default ()=>{
@@ -11,7 +11,7 @@ export default ()=>{
     loading:true,
   })
   useEffect(()=>{
-    $tUtils.$ti.s("disLoding",()=>{
+    timer.s("disLoding",()=>{
       setAPConfig((pre)=>({
         ...pre,
         loading:false
