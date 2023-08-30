@@ -21,7 +21,7 @@
     "react-dom": "^18.2.0",
     "react-flip-numbers": "^3.0.8",
     "react-router-dom": "^6.14.2",
-    "techui-react-lite": "^0.0.3",
+    "techui-react-lite": "^0.0.4",
     "use-immer": "^0.9.0",
     "zustand": "^4.4.1"
   },

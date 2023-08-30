@@ -8,14 +8,15 @@ export default ()=>{
     backgroundName:"A1",
     height:930,
     userSelect:true,
-    chartCount:2,
+    // chartCount:2,
+    loading:false
   })
   useEffect(()=>{
     
   },[])
 
   return (
-    <AdaptivePanel config={APConfig}>
+    <AdaptivePanel className="dashboardA-wrap" config={APConfig}>
       <Layout></Layout>
     </AdaptivePanel>
   )

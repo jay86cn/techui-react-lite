@@ -4,7 +4,7 @@ export default ()=>{
     {label:"Document",icon:"i carbon:catalog",path:"http://lite.techui.net/docs"},
     {label:"Gtihub",icon:"i carbon:logo-github",path:"https://github.com/ayin86/techui-react-lite"},
     {label:"Vue2 Premium",icon:"i carbon:logo-vue",path:"http://techui.net/docs"},
-    {label:"Vue3 Lite",icon:"i carbon:logo-vue",path:"http://lite.techui.net/docs"},
+    // {label:"Vue3 Lite",icon:"i carbon:logo-vue",path:"http://lite.techui.net/docs"},
     {label:"React Lite",active:true,icon:"i carbon:logo-react",path:"http://lite.techui.net/docs"},
   ]
 

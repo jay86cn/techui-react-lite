@@ -1,0 +1,38 @@
+.counter-item-re(){.bgc(fade(@red9,90%));
+  .name{.fc(@rer4);
+    .unit{.fc(@rer4);}
+  }
+  .content{
+    .num,
+    .num .plus{.fc(@rer4);}
+  }
+}
+.counter-item-ye(){.bgc(fade(@yed9,90%));
+  .name{.fc(@yer5);
+    .unit{.fc(@yer5);}
+  }
+  .content{
+    .num,
+    .num .plus{.fc(@yer5);}
+  }
+}
+
+
+.map-counter-wrap{.poa; left:50%; .fixc("x"); top:80px; z-index: 10;
+  .counter-item{  width: 190px; display:inline-block; .bgc(fade(@bll9,80%)); height: 60px; margin:0 20px 0 0; padding:10px 0 0 10px; position: relative;.bdr(5px);
+    .name{.fc(var(--font-normal)); font-size: 12px; .ff("cn1"); z-index: 1; .poa; left:5px; top:5px;
+      .unit{font-size: 12px;}
+    }
+    .content{.fc(var(--font-normal));.poa; right:5px; top:5px;
+      .num{font-size: 18px; .por; .ff(impact);.fc(var(--font-normal));
+        .plus{.poa; left:101%; top:-5px; font-size: 12px; .fc(var(--font-normal)); font-weight: normal; .ff("arial");}
+      }
+    }
+    .echartsInit-wrap{.poa!important; left:0; right:0; bottom:0; height: 25px!important;min-height: 25px!important;}
+
+    &:nth-child(1){.counter-item-re;}
+    &:nth-child(2){.counter-item-ye;}
+    &:nth-child(3){}
+    &:last-child{margin:0;}
+  }
+}
