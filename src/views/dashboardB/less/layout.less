@@ -1,22 +1,39 @@
-.dashboardA{ z-index: 1;padding:60px 30px 30px 30px; height: 100%; //url(../common/images/bg.png) 
+.dashboardB{ z-index: 1;padding:60px 30px 30px 30px; height: 100%; //url(../common/images/bg.png) 
   .techButtonA2 {z-index: 10; .poa; bottom:20px; left:50%; .fixc("x");}
 .i(){.poa; bottom:0; right:10px; font-size: 12px; opacity: .1; .fc(@wh); z-index: 10;}
   display: grid; grid-template-columns: repeat(24,1fr); grid-template-rows:repeat(24,1fr); grid-gap: 30px;
   .area-box{.bdr(5px);  pointer-events: visible; position: relative; z-index: 10; 
+    .board-3d-wrap{ .poa; .fullbox;
+
+    }
     //<row-start> / <column-start> / <row-end> / <column-end>;
     .blank,
     .portlet-wrapper{.por;
       >i{.i;}
+      
     }
     .border-content{>i{.i;}}
     &.area-left{ grid-area: 1 / 1 / 25 / 7; }
-    &.area-right{ grid-area: 1 / 19 / 25 / 25; 
+    &.area-right{ grid-area: 1 / 19 / 25 / 25; }
+    &.area-center{grid-area: 1 / 7 / 25 / 19; }
+    &.area-left,
+    &.area-right,
+    &.area-center{ display: grid; grid-template-columns: repeat(1,1fr); grid-template-rows:repeat(24,1fr); grid-gap: 20px;
       .portlet-wrapper{
-        &:nth-child(3){grid-area:3 / 1 /5/ 2}
+        &:nth-child(1){grid-area: 1 / 1 / 8 / 3;}
+        &:nth-child(2){grid-area: 8 / 1 / 15 / 3;}
+        &:nth-child(3){grid-area: 15 / 1 / 25 / 3;}
       }
     }
-    &.area-left{ display: grid; grid-template-columns: repeat(1,1fr); grid-template-rows:repeat(3,1fr); grid-gap: 20px;}
-    &.area-right{ display: grid; grid-template-columns: repeat(1,1fr); grid-template-rows:repeat(4,1fr); grid-gap: 20px;}
+    &.area-center{grid-template-columns: repeat(2,1fr);
+      .portlet-wrapper{
+        &:nth-child(1){grid-area: 1 / 1 / 8 / 3;}
+        &:nth-child(2){grid-area: 8 / 1 / 15 / 2;}
+        &:nth-child(3){grid-area: 8/ 2 / 15 / 3;}
+        &:nth-child(4){grid-area: 15 / 1 / 25 / 3;}
+      }
+    }
+    
   }
   .content-tabs{.poa;  top:-40px; left:80px; right:80px; text-align: center; height: 40px;
     &:before{content:" "; .bdb(var(--button-bd_hov));left:0; right:0; bottom:10px;.poa; z-index: 1;}

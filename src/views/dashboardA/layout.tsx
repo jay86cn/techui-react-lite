@@ -63,7 +63,7 @@ const components={
 }
 
 const SubComponent=({item}:ISubCompSlot)=>{
-  const BorderCurrent=item.border?components[item.border]:
+  const BorderCurrent=item.border&&components[item.border]
   console.log("BorderCurrent",item.border);
   
   const ComponentCurrent=components[item.component]

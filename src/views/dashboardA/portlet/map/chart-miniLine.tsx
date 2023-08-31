@@ -1,15 +1,16 @@
 import { useEffect } from 'react'
 import {useImmer} from "use-immer"
-import {EchartInit,$c} from "techui-react-lite"
+import {EchartInit,randomData,$c} from "techui-react-lite"
 import * as echarts from 'echarts';
 
 export default ({color}:{color:string})=>{
+  const rdmData=randomData({ min:0, max:300, length:10, group:1 })
   const [state, setState] = useImmer<ChartConfig>({
     inited:false,
     data:{
       colors:[],
       legend:['埋深'],
-      values:[235, 210, 187, 212, 278, 220, 320, 302, 301, 334],
+      values:rdmData[0],
     },
     option:{}
   })

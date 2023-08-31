@@ -7,8 +7,8 @@ export default ()=>{
     {label:"Components",path:"/compsDemo"},
     {label:"DashboardA",path:"/dashboardA"},
     {label:"DashboardB",path:"/dashboardB"},
-    {label:"DashboardC",path:"/dashboardC"},
-    {label:"DashboardD",path:"/dashboardD"},
+    // {label:"DashboardC",path:"/dashboardC"},
+    // {label:"DashboardD",path:"/dashboardD"},
   ]
   const navigate = useNavigate();
   const location = useLocation()

@@ -43,6 +43,8 @@ export default ()=>{
         desc:"",
         children:[
           {component:"DecoFrameA2",counter:369,config:{
+            textColor:$c.fade("cyl5",.3),
+            glowColor:$c.fade("rel5",.3),
           }},
           {component:"DecoFrameA2",icon:"i carbon:bat",config:{
             decorationAlt:true,
@@ -87,7 +89,7 @@ export default ()=>{
       {name:"DecoFrameA3",
         desc:"",
         children:[
-          {component:"DecoFrameA3",counter:369,config:{
+          {component:"DecoFrameA3",counter:36,config:{
           }},
           {component:"DecoFrameA3",icon:"i carbon:add-comment",config:{
             decorationAlt:true,
@@ -105,7 +107,7 @@ export default ()=>{
             backgroundOpacity:.5
           }},
           
-          {component:"DecoFrameA3",counter:369,config:{
+          {component:"DecoFrameA3",counter:36,config:{
             directionAlt:true,
           }},
           {component:"DecoFrameA3",icon:"i carbon:add-comment",config:{

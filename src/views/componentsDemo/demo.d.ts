@@ -41,3 +41,4 @@ interface ISlotCompProcess{
   text?:string;
   config:IConfig;
 }
+

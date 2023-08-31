@@ -36,7 +36,7 @@ export default ()=>{
             <div className="total">
               <i className={`icon ${item.icon}`}></i>
               <div className="number">
-              <FlipNumbers height={32} width={24} color={$c.cyl3} numberStyle={{fontFamily:"en0"}} play perspective={1000} numbers={item.total} duration={3}/>
+              <FlipNumbers height={32} width={24} color={$c.cyl3} numberStyle={{fontFamily:"en0"}} play perspective={1000} numbers={item.total} duration={5}/>
               </div>
               {/* <DigitalTransform className="numbers" value={item.total} useGrouping={true} interval={3000} /> */}
             </div>
