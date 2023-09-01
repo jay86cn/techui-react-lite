@@ -3,12 +3,12 @@
 <h1 align="center">
 <b>TechUI-lite 开发包</b>
 </h1>
-<div align="center">TechUI-lite是一款免费简单易用的动态SVG可视化大屏开发框架，基于vite+vue3开发</div>
+<div align="center">TechUI-lite是一款免费简单易用的动态SVG可视化大屏开发框架，基于vite+react开发</div>
 
 <p align="center">
   <a href="https://lite.techui.net/docs">文档</a> •
   <a href="https://lite.techui.net/">演示站</a> •
-  <a href="https://www.npmjs.com/package/techui-vue3-lite">核心库</a> •
+  <a href="https://www.npmjs.com/package/techui-react-lite">核心库</a> •
   <a href="https://techui.net/docs">高级版</a> •
   <a href="https://t.me/ayin86cn">Telgram</a>
 </p>
@@ -31,7 +31,7 @@
 
 **演示GIF动画**
 
-<img src="./demoImage/techui-vue3-lite.gif" style="border-radius:10px" width="800" />
+<img src="./demoImage/techui-react-lite.gif" style="border-radius:10px" width="800" />
 
 **数据屏A**
 
@@ -64,7 +64,7 @@
 
 - **🛸自由开发无限制**
 
-  采用vite、vue3等流行技术栈，通过调用自研发组件和图表组件，不需要过多繁琐的开发过程即可快速部署上线，大大缩短了开发周期。真正做到了源码级的自由开发。
+  采用vite、react等流行技术栈，通过调用自研发组件和图表组件，不需要过多繁琐的开发过程即可快速部署上线，大大缩短了开发周期。真正做到了源码级的自由开发。
 
 - **📊企业拼接屏**
 
@@ -90,7 +90,7 @@
 
 ## 📜更新说明
 
-- **20230714 techui-vue3-lite-ver3.5 Lite正式版发布，其SVG元素节点计算采用WASM组件计算返回**
+- **20230714 techui-react-lite-ver3.5 Lite正式版发布，其SVG元素节点计算采用WASM组件计算返回**
 
 
 -----

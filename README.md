@@ -3,12 +3,12 @@
 <h1 align="center">
 <b>TechUI-lite Development Kit</b>
 </h1>
-<div align="center">TechUI-lite is a free and easy to use Dynamic SVG Data Visualization Dashboard development tool, based on vite + vue3 development</div>
+<div align="center">TechUI-lite is a free and easy to use Dynamic SVG Data Visualization Dashboard development tool, based on vite + react development</div>
 
 <p align="center">
    <a href="https://lite.techui.net/docs">Documentation</a> •
    <a href="https://lite.techui.net/">Demo Site</a> •
-   <a href="https://www.npmjs.com/package/techui-vue3-lite">Core library</a> •
+   <a href="https://www.npmjs.com/package/techui-react-lite">Core library</a> •
    <a href="https://techui.net/docs">Premium</a> •
    <a href="https://t.me/ayin86cn">Telgram</a>
 </p>
@@ -34,7 +34,7 @@ Note: The SVG material and code in the framework are limited to use in the frame
 
 **Demo Gif animations**
 
-<img src="./demoImage/techui-vue3-lite.gif" style="border-radius:10px" width="800" />
+<img src="./demoImage/techui-react-lite.gif" style="border-radius:10px" width="800" />
 
 **Data Screen A**
 
@@ -67,7 +67,7 @@ Note: The SVG material and code in the framework are limited to use in the frame
 
 - **🛸Free Development Unlimited**
 
-   Using popular technology stacks such as vite and vue3, by calling self-developed components and chart components, it can be quickly deployed and launched without too much tedious development process, which greatly shortens the development cycle. It has truly achieved free development at the source code level.
+   Using popular technology stacks such as vite and react, by calling self-developed components and chart components, it can be quickly deployed and launched without too much tedious development process, which greatly shortens the development cycle. It has truly achieved free development at the source code level.
 
 - **📊Enterprise Splicing Screen**
 
@@ -93,7 +93,7 @@ Note: The SVG material and code in the framework are limited to use in the frame
 
 ## 📜 Update Description
 
-- **20230714 techui-vue3-lite-ver3.5 Lite is officially released, and its SVG element node calculation uses WASM component calculation to return**
+- **20230714 techui-react-lite-ver3.5 Lite is officially released, and its SVG element node calculation uses WASM component calculation to return**
 
 
 -----
