@@ -31,7 +31,7 @@
 
 -----
 
-作者于2023年8月1日开始学习React，到了8月中旬已完成React学习任务，为巩固React知识，重构了TechUI-Lite框架。在功能上与TechUI-Vue3-Lite一致。这个重构工作大约花费了两周时间，其中的Wasm模块和Vue3版本的一致，是此前用Rust语言开发的。
+作者于2023年8月1日开始学习React，到了8月中旬完成React学习任务，为巩固React知识，重构了TechUI-Lite框架。在功能上与TechUI-Vue3-Lite一致。这个重构工作大约花费了两周时间，其中的Wasm模块和Vue3版本的一致，是此前用Rust语言开发的。
 
 由于作者一直是独立开发，所以在前端开发中几乎没有使用TypeScript语言。然而，在构建这个框架时，使用了TypeScript。对于ECharts图表的复杂配置和地图的GeoJSON，作者对这些元素的类型感到困惑，因此在定义这些元素的类型时使用了部分"any"。作者不确定这是否符合TypeScript开发的最佳实践。
 
