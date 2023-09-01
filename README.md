@@ -34,11 +34,11 @@ Note: The SVG material and code in the framework are limited to use in the frame
 
 -----
 
-The author started to learn React on August 1, 2023, and completed the React learning task by mid-August. In order to consolidate React knowledge, the TechUI-Lite framework was reconstructed. Functionally consistent with TechUI-Vue3-Lite. This refactoring took about two weeks, and the Wasm module was still developed in the Rust language.
+The author started to learn React on August 1, 2023, and completed the React learning task by mid-August. In order to consolidate React knowledge, the TechUI-Lite framework was reconstructed. Functionally consistent with TechUI-Vue3-Lite. This refactoring took about two weeks, the Wasm module is consistent with the Techui-Vue3 version, which was previously developed in Rust language.
 
 Since the author has been developing independently, the TypeScript language is hardly used in front-end development. However, when building this framework, TypeScript was used. For the complex configuration of ECharts charts and GeoJSON for maps, the author was confused about the types of these elements, so he used part "any" when defining the types of these elements. The author is not sure if this is the best practice for TypeScript development.
 
-The framework was refactored in React in just two weeks, so there may be some bugs. If there are users to use it, I will spend time on it and continue to iterate and improve it. If not many people use it, then I will focus on learning Python. If you think this framework is helpful to you, please consider giving it a star, thanks for the support!
+The framework was refactored in React in just two weeks, so there may be some bugs. If there are users to use it, I will spend time on it and continue to iterate and improve it. If not many people use it, then I will focus on learning Python. 
 
 For the documentation part, please refer to the version of [Techui-Vue3-Lite Docs](https://lite.techui.net/docs) temporarily, and the framework of the React version is basically not much different in use.
 
