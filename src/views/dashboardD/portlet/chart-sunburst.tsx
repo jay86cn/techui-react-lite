@@ -50,7 +50,7 @@ export default ()=>{
     },
     option:{}
   })
-  const fontColor=$c.wh, subFontColor=$c.cbl3
+  const fontColor=$c.wh
 
   const processData=()=>{
     let {values}=state.data,

@@ -47,7 +47,7 @@ export default ()=>{
           ))}
         </div>
       ))}
-      <TechTitleA2 config={techTitleConfig as IConfigTT}> TechUI Data Visualization Tool </TechTitleA2>
+      <TechTitleA2 config={techTitleConfig}> TechUI Data Visualization Tool </TechTitleA2>
       {/* <EchartMap /> */}
       <ChartMap></ChartMap>
     </div>

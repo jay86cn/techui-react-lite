@@ -24,7 +24,7 @@ export default ()=>{
   })
   
   const processData=()=>{
-    let {legend,colors,xAxis,values,symbolSize}=state.data,
+    let {xAxis,values,symbolSize}=state.data,
         processedData:ChartSeries[]=[],
         subData:{
           value:number,

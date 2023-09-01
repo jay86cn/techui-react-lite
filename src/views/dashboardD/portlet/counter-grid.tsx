@@ -32,7 +32,7 @@ export default ()=>{
   return (
     <div className="dashboardD-counterGrid">
       {arry.map((item, index) => (
-        <TechBorderB3 key={index} config={borderConfig(index) as IConfigTBd}>
+        <TechBorderB3 key={index} config={borderConfig(index)}>
           <div className="inner-content">
             <div className="block-title">
               {item.title} <span>{item.unit && `(${item.unit})`}</span>

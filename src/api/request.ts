@@ -1,5 +1,5 @@
-import axios, { AxiosResponse } from 'axios';
-
+import axios from 'axios';
+// , { AxiosResponse }
 const envMode = process.env.NODE_ENV;
 const baseURL = envMode === 'development' ? '/' : '/api';
 

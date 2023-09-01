@@ -64,9 +64,7 @@ const components={
 const SubComponent=({item}:ISubCompSlot)=>{
   
   const ComponentCurrent=components[item.component]
-  const panelTitleConfig={
-    width:160,
-  }
+  // const panelTitleConfig={ width:160, }
 
   return (
     <>
