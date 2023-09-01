@@ -8,7 +8,7 @@ export default ()=>{
   const [state, setState] = useImmer<ChartConfig>({
     inited:false,
     data:{
-      legend:['本地', '異地'],
+      legend:['Software', 'hardware'],
       xAxis:['M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10', 'M11', 'M12'],
       colors:[$c.aql4,$c.bll5,$c.ipl3,$c.cbl3,],
       values:[
