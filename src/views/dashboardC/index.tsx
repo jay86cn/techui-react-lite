@@ -8,7 +8,7 @@ export default ()=>{
     backgroundName:"A1",
     height:930,
     userSelect:true,
-    chartCount:9,
+    chartCount:6,
     // loading:false
   })
   useEffect(()=>{

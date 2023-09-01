@@ -4,12 +4,12 @@ import Layout from "./layout"
 
 export default ()=>{
   const [APConfig]=useState({
-    backgroundFillAll:false,
+    backgroundFillAll:true,
     backgroundName:"A2",
     height:930,
     userSelect:true,
-    // chartCount:2,
-    loading:false
+    chartCount:9,
+    // loading:false
   })
   useEffect(()=>{
     

@@ -1,5 +1,5 @@
 import { useState,useEffect } from 'react'
-import {AdaptivePanel} from "techui-react-lite"
+import {AdaptivePanel,$c} from "techui-react-lite"
 import Layout from "./layout"
 
 export default ()=>{
@@ -8,8 +8,15 @@ export default ()=>{
     backgroundName:"A1",
     height:930,
     userSelect:true,
-    chartCount:9,
-    // loading:false
+    chartCount:5,
+    // loading:false,
+    backgroundConfig:{
+      vectorBGA:$c.wh,
+      vectorBGB:$c.wh,
+      vectorBGC:$c.wh,
+      vectorBGX:$c.bk.replace("#","%23"),
+      vectorBGXOpa:0.03,
+    }
   })
   useEffect(()=>{
     

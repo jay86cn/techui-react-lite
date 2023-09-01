@@ -1,0 +1,12 @@
+.dashboardD-counterGrid{display: grid; grid-template-columns: repeat(2,1fr); height: 100%; grid-template-rows: repeat(2,1fr); grid-gap: 12px;  position: relative;
+  .techBorderB3{ padding:0; position: relative; min-height:0;
+    .inner-content{
+      .block-title{position: absolute;.ff("cn1"); left:0; right:0; text-align: center; top:10px;.fc(@bk); font-size: 14px; }
+      .total{margin: 0; text-align: center; line-height: 30px; .poa; left:0; right:0; top:60%; .fixc("y");
+        i{display:inline-block;font-size:32px; vertical-align: text-top; margin-right: 10px;.fc(@bk);}
+        .number{display:inline-block; text-align: center; font-size: 32px; .ff("en0");  position: relative; vertical-align: text-top; .fc(var(--font-strong)); }
+        .unit{font-size: 14px; margin:0 0 0 10px;.fc(var(--font-strong));}
+      }
+    }
+  }
+}
