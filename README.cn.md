@@ -1,4 +1,4 @@
-简体中文 | [English](./README.md)
+简体中文 |  [English](./README.md)
 
 <h1 align="center">
 <b>TechUI-lite 开发包</b>
@@ -24,6 +24,22 @@
 还有一款付费Premium版本，提供了更多的强大的功能，相关文档和Demo请访问这里 [TechUI-Premium](https://techui.net/docs)
 
 注意：框架内的SVG素材、代码，仅限于框架内使用，请勿提取后用于其他用途。
+
+
+
+-----
+
+作者于2023年8月1日开始学习React，到了8月中旬已完成React学习任务，为巩固React知识，重构了TechUI-Lite框架。在功能上与TechUI-Vue3-Lite一致。这个重构工作大约花费了两周时间，Wasm模块仍然采用之前用Rust语言开发的。
+
+由于作者一直是独立开发，所以在前端开发中几乎没有使用TypeScript语言。然而，在构建这个框架时，使用了TypeScript。对于ECharts图表的复杂配置和地图的GeoJSON，作者对这些元素的类型感到困惑，因此在定义这些元素的类型时使用了部分"any"。作者不确定这是否符合TypeScript开发的最佳实践。
+
+这个框架是在短短两周内用React重构完成的，因此难免可能存在一些bug。如果有用户去使用它，我将会在这上面花费时间继续深入迭代完善。如果没有太多人使用，那么我将把重心放在学习Python上。如果你觉得这个框架对你有帮助，请考虑给它点一个Star，感谢支持！
+
+文档部分，请暂时参考 [Techui-Vue3-Lite Docs](https://lite.techui.net/docs)的版本，和React的版本的框架，使用上基本没太大的差别。
+
+-----
+
+
 
 
 
