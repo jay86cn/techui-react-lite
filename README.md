@@ -9,6 +9,8 @@
    <a href="https://lite.techui.net/docs">Documentation</a> •
    <a href="https://lite.techui.net/">Demo Site</a> •
    <a href="https://www.npmjs.com/package/techui-react-lite">Core library</a> •
+   <a href="https://github.com/ayin86/techui-vue3-lite">Lite-Vue3</a> •
+   Lite-React •
    <a href="https://techui.net/docs">Premium</a> •
    <a href="https://t.me/ayin86cn">Telgram</a>
 </p>

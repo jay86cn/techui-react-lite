@@ -9,6 +9,8 @@
   <a href="https://lite.techui.net/docs">文档</a> •
   <a href="https://lite.techui.net/">演示站</a> •
   <a href="https://www.npmjs.com/package/techui-react-lite">核心库</a> •
+  <a href="https://github.com/ayin86/techui-vue3-lite">Lite-Vue3</a> •
+   Lite-React •
   <a href="https://techui.net/docs">高级版</a> •
   <a href="https://t.me/ayin86cn">Telgram</a>
 </p>
