@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "axios": "^1.4.0",
-    "ayin-color": "^1.0.9",
-    "ayin-lessmixins": "^1.1.0",
+    "ayin-color": "1.0.9",
+    "ayin-lessmixins": "1.1.0",
     "classnames": "^2.3.2",
     "echarts": "^5.4.3",
     "immer": "^10.0.2",
